@@ -19,5 +19,4 @@ export class ApiGatewayController {
     );
     return response.data;
   }
-
 }
