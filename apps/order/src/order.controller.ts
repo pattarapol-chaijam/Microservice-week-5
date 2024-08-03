@@ -3,6 +3,9 @@ import { OrderService } from './order.service';
 
 @Controller('order')
 export class OrderController {
+  getHello(): any {
+    throw new Error('Method not implemented.');
+  }
   constructor(private readonly orderService: OrderService) {}
 
   @Post()
